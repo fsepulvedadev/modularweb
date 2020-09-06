@@ -126,3 +126,11 @@ nav a img {
     background-color: #00dcc3;
     
 }
+
+.card {
+    transition-duration: 0.4s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 35px 0px rgba(0,220,195,1);
+}
