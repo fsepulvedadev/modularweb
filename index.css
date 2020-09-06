@@ -44,6 +44,17 @@ nav a img {
     
 }
 
+.logo-circular {
+    box-shadow: 10px 10px 5px -10px rgba(0,220,195,1);
+    transition-duration: 0.4s;
+    
+}
+
+.logo-circular:hover {
+    box-shadow: 0px 0px 35px 0px rgba(0,220,195,1);
+}
+
+
 #main .carousel-inner img {
     max-height: 60vh;
     object-fit: cover;
@@ -83,7 +94,9 @@ nav a img {
 }
 
 #servicios {
-    background-color: #009f8d;
+    border-left: 20px solid #009f8d;
+    background-color: #00dcc3;
+    
 }
 
 #servicios div img {
@@ -105,5 +118,11 @@ nav a img {
 
 .plano:hover {
     width: 120px !important;
+    
+}
+
+.linea-modular {
+    border-left: 8px solid #009f8d;
+    background-color: #00dcc3;
     
 }
