@@ -153,7 +153,47 @@ nav a img {
     color: white !important;
 }
 
-#accordionExample h2 {
+
+
+.faq-img {
+    width: 31vh;
+}
+
+#preguntas {
+    background-color: #F8F8F8 !important;
+}
+
+#footer {
+    background-color: #009f8d;
+    
+}
+
+#footer ul li img {
+    width: 4vh;
+
+}
+
+#footer ul li a {
+   color: white;
+
+}
+#footer ul li a:hover {
     text-decoration: none;
-    color: crimson;
+
+}
+
+#footer ul {
+    list-style: none;
+}
+.borde-footer {
+    background-color: #007b6d;
+    height: 5vh;
+}
+
+.logo-footer {
+    width: 20vh;
+}
+
+#accordion .btn {
+    width: 30vh;
 }
