@@ -163,7 +163,9 @@ nav a img {
 .faq-img {
     width: 31vh;
 }
-
+#quienes h4 {
+    color:white;
+}
 #preguntas {
     background-color: #F8F8F8 !important;
 }
