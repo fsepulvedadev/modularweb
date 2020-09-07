@@ -7,6 +7,10 @@
     src: url(./assets/GOTHAM-LIGHT.OTF);
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* height of sticky header */
+  }
 
 .header {
     background: url(./assets/625993-PNZP34-678.jpg) no-repeat center;
@@ -133,4 +137,23 @@ nav a img {
 
 .card:hover {
     box-shadow: 0px 0px 35px 0px rgba(0,220,195,1);
+}
+
+.card img {
+    max-height: 480px;
+    max-width: 640px;
+}
+
+.dropdown-item {
+    color: #009f8d !important;
+}
+
+.dropdown-item:hover {
+    background-color: #00dcc3 !important;
+    color: white !important;
+}
+
+#accordionExample h2 {
+    text-decoration: none;
+    color: crimson;
 }
