@@ -10,15 +10,18 @@ router.post('/send-email', async (req,res) => {
     res.redirect('/success.html');
 
     contentHTML = `
-        <h1>User Information</h1>
-        <ul>
-            <li>Nombre: ${name}</li>
-            <li>Apellido: ${apellido}</li>
-            <li>Email: ${email}</li>
-            <li>Telefono: ${tel}</li>
-           </ul>
+        INFORMACION DEL CONTACTO
+        
+            Nombre: ${name}
+            Apellido: ${apellido}
+            Email: ${email}
+            Telefono: ${tel}
+           
 
-           <p>${message}</p>
+           
+           Mensaje:
+           ${message}
+           
     
             `   
         const transporter = nodemailer.createTransport({
