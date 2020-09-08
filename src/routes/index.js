@@ -38,7 +38,7 @@ router.post('/send-email', async (req,res) => {
                from: "'Formulario web Modular' <web@modularneuquen.com>",
                to: 'panchinrc1993@gmail.com',
                subject: 'Contacto formulario web.',
-               text: 'Holaa esta andando'
+               text: contentHTML
 
            });
 
