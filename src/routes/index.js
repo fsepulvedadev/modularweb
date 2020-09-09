@@ -29,8 +29,8 @@ router.post('/send-email', async (req,res) => {
                port: 465,
                secure: true,
                auth: {
-                   user: 'contacto@modularneuquen.com',
-                   pass: 'orejasnrc1993'
+                   user: MAIL_USERNAME,
+                   pass: MAIL_PSW
                },
                tls: {
                    rejectUnauthorize: false
@@ -39,7 +39,7 @@ router.post('/send-email', async (req,res) => {
 
        const info = await transporter.sendMail({
                from: "'Formulario web Modular' <web@modularneuquen.com>",
-               to: 'modularneuquen@gmail.com , jsepulveda@syaallservice.com , panchi_nrc@hotmail.com',
+               to: 'panchi_nrc@hotmail.com',
                subject: 'Contacto formulario web.',
                text: contentHTML
 
