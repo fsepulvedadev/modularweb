@@ -29,8 +29,8 @@ router.post('/send-email', async (req,res) => {
                port: 465,
                secure: true,
                auth: {
-                   user: MAIL_USERNAME,
-                   pass: MAIL_PSW
+                   user: process.env.MAIL_USERNAME,
+                   pass: process.env.MAIL_PSW
                },
                tls: {
                    rejectUnauthorize: false
