@@ -38,7 +38,7 @@ router.post('/send-email', async (req,res) => {
            })
 
        const info = await transporter.sendMail({
-               from: "'Formulario web Modular' <web@modularneuquen.com>",
+               from: "'Formulario web Modular' <contacto@modularneuquen.com>",
                to: 'panchi_nrc@hotmail.com',
                subject: 'Contacto formulario web.',
                text: contentHTML
