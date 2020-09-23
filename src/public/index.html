@@ -1,217 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="icon" href="./assets/LogoHeader.png" type="image/icon type">
-    <title>Modular ESPACIOS</title>
-</head>
-<body>
-    
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./index.css" />
+		<link rel="icon" href="./assets/LogoHeader.png" type="image/icon type" />
+		<title>Modular ESPACIOS</title>
+	</head>
+	<body>
+		<!-- Nav bar -->
+		<nav
+			id="header"
+			class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-lg"
+		>
+			<div class="container align-items-center">
+				<a class="navbar-brand" href="#main">
+					<img src="./assets/logonavbar.png" alt="Logo Modular" />
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbar"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-   <!-- Nav bar -->
-   <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-lg">
-    <div class="container align-items-center">
-        <a class="navbar-brand " href="#main">
-            <img src="./assets/logonavbar.png" alt="Logo Modular">
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#carousel">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#quienes">Quienes Somos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#servicios">Servicios</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								Modelos
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#Viviendas">Viviendas</a>
+								<a class="dropdown-item" href="#Quinchos">Quinchos</a>
+								<a class="dropdown-item" href="#Espacios">Espacios</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#preguntas">Preguntas frecuentes</a>
+						</li>
 
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+						<li class="nav-item">
+							<a href="#contacto"
+								><button type="button" class="btn btn-primary btn-modular">
+									Contacto
+								</button></a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#carousel">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#quienes">Quienes Somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#servicios">Servicios</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Modelos
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#Viviendas">Viviendas</a>
-                      <a class="dropdown-item" href="#Quinchos">Quinchos</a>
-                      <a class="dropdown-item" href="#Espacios">Espacios</a>
-                     
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#preguntas">Preguntas frecuentes</a>
-                </li>
-                
-                <li class="nav-item">
-                   <a href="#contacto"><button
-                           type="button"
-                           class="btn btn-primary btn-modular">Contacto</button></a>
-                </li>
-            </ul>
+		<!--                 MAIN               -->
+		<main id="main">
+			<div
+				id="carousel"
+				class="carousel slide carousel-fade"
+				data-ride="carousel"
+				data-pause="false"
+			>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img
+							loading="lazy"
+							src="./assets/container10.jpg"
+							class="d-block w-100"
+							alt="..."
+						/>
+					</div>
+					<div class="carousel-item">
+						<img src="./assets/container4.jpg" class="d-block w-100" alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img src="./assets/container3.jpg" class="d-block w-100" alt="..." />
+					</div>
+					<div class="overlay sya-font">
+						<div class="container">
+							<div class="row">
+								<div
+									class="col-md-12 offset-md-12 text-center text-md-right pt-5 d-flex flex-column"
+								>
+									<h1 class="display-3 modular-font">MODULAR</h1>
 
-        </div>
-    </div>
-</nav>
+									<p class="text-lowercase">
+										<span class="text-uppercase">D</span>iseñamos y materializamos
+										soluciones espaciales.
+									</p>
+									<div class="row">
+										<div class="col-md-12">
+											<a href="#contacto" class="btn btn-outline-light"
+												>Contáctanos</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
 
+		<!-- QUIENES SOMOS -->
 
-<!--                 MAIN               -->
-<main id="main">
-    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./assets/container10.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/container4.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/container3.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="overlay sya-font">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 offset-md-12 text-center text-md-right  pt-5 d-flex flex-column ">
-                            <h1 class=" display-3 modular-font">MODULAR</h1>
-                            
-                            <p class="text-lowercase"><span class="text-uppercase">D</span>iseñamos y materializamos soluciones espaciales.</p>
-                            <div class="row">
-                                <div class="col-md-12">
+		<section id="quienes">
+			<div class="container modular-subfont">
+				<div class="row mt-4">
+					<div class="col text-center">
+						<h1 class="modular-font mt-4 modular-color display-4">sobre nosotros</h1>
+						<h5 class="modular-subfont modular-subcolor lead">¿Que es Modular?</h5>
+						<hr class="mt-4" />
+					</div>
 
-                                    <a href="#contacto" class="btn btn-outline-light">Contáctanos</a>
-                                </div>
-                            </div>
-                        </div>
+					<div class="row d-flex justify-content-center align-items-center">
+						<div class="col-10 offset-1 col-md-4 offset-md-1">
+							<h4 class="modular-subfont linea-modular text-left pl-3 py-1">
+								Nosotros
+							</h4>
+							<p class="lead mt-3">
+								MODULAR nace desde el entendimiento de un mercado con muy poca oferta
+								y una demanda que crece día a día, ocupando un segmento de la
+								industria que no está cubierto.<br />
+								Desde la experiencia de nuestro equipo de trabajo, brindamos a los
+								clientes diferentes tipos de soluciones a sus problemáticas
+								espaciales.<br />
+								Diseño y personalización, diferencian a MODULAR del resto.
+							</p>
+						</div>
+						<div
+							class="col-10 offset-1 offset-md-0 col-md-6 d-flex justify-content-center align-items-center"
+						>
+							<img
+								loading="lazy"
+								class="rounded-circle my-4 logo-circular"
+								src="./assets/trama-08.jpg"
+								alt="logo grande"
+							/>
+						</div>
+					</div>
 
-                    </div>
-                </div>
-            </div>
-        </div>
+					<div class="row mt-3">
+						<div class="col-12 col-md-4">
+							<h4 class="modular-subfont linea-modular py-1 pl-3 text-left">
+								Visión
+							</h4>
+							<p class="lead mb-4 pb-4 px-3 px-md-0">
+								Está dirigida a convertirnos en una empresa líder en soluciones de
+								espacio a partir de módulos transportables. Ser el medio al cual
+								personas del todo el país recurran para encontrar una respuesta, en
+								base a la creatividad, dialogo y eficiencia en nuestra mano de obra,
+								a todas las preguntas que surgen al imaginar una estructura para
+								nuestro hogar o lugar de trabajo.
+							</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<h4 class="modular-subfont linea-modular py-1 pl-3 text-left">
+								Misión
+							</h4>
+							<p class="lead mb-4 pb-4 px-3 px-md-0">
+								Mantenerse en permanente búsqueda de calidad y eficiencia en
+								materiales, capacitación continua de nuestro personal, y generar un
+								lazo de confianza con nuestros clientes entendiendo la
+								responsabilidad de armar espacios íntimos para ellos.
+							</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<h4 class="modular-subfont linea-modular py-1 pl-3 text-left">
+								Compromiso
+							</h4>
+							<p class="lead mb-4 pb-4 px-3 px-md-0">
+								Encontrar de manera conjunta materializar los lugares soñados para
+								nuestros clientes, supervisar la calidad del producto en todas sus
+								etapas de confección, tras una minuciosa búsqueda de proveedores de
+								calidad para contar con materiales que estén a la altura de nuestras
+								expectativas.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    </div>
-
-</main>
-
-<!-- QUIENES SOMOS -->
-
-    <section id="quienes" >
-        <div class="container modular-subfont">
-            <div class="row mt-4">
-                <div class="col  text-center">
-                    <h1 class="modular-font mt-4 modular-color display-4">
-                        sobre nosotros
-                    </h1>
-                    <h5 class="modular-subfont modular-subcolor lead">¿Que es Modular?</h5>
-                    <hr class="mt-4">
-
-                
-                </div>
-
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-10 offset-1 col-md-4 offset-md-1 ">
-                        <h4 class="modular-subfont linea-modular  text-left pl-3 py-1">
-                            Nosotros
-                        </h4>
-                        <p  class="lead mt-3" >
-                            MODULAR nace desde el entendimiento de un mercado con muy poca oferta y una demanda
-                            que crece día a día, ocupando un segmento de la industria que no está cubierto.<br/>
-                            Desde la experiencia de nuestro equipo de trabajo, brindamos a los clientes diferentes tipos de
-                            soluciones a sus problemáticas espaciales.<br/>
-                            Diseño y personalización, diferencian a MODULAR del resto.
-                         </p>
-                        </div>
-                             <div class="col-10 offset-1 offset-md-0 col-md-6 d-flex justify-content-center align-items-center">
-                                 <img class="rounded-circle  my-4 logo-circular" src="./assets/trama-08.jpg" alt="logo grande">
-                             </div>
-                </div>
-
-                        <div class="row mt-3">
-
-                        <div class="col-12 col-md-4">
-
-                        
-                         <h4 class="modular-subfont linea-modular py-1 pl-3 text-left">
-                            Visión
-                         </h4>
-                         <p class="lead mb-4 pb-4 px-3 px-md-0">
-                            Está dirigida a convertirnos en una empresa líder en soluciones de espacio a partir de módulos
-                            transportables. Ser el medio al cual personas del todo el país recurran para encontrar una
-                            respuesta, en base a la creatividad, dialogo y eficiencia en nuestra mano de obra, a todas las
-                            preguntas que surgen al imaginar una estructura para nuestro hogar o lugar de trabajo.
-                         </p>
-                        </div>
-                        <div class="col-12 col-md-4">
-
-                            <h4 class="modular-subfont linea-modular py-1 pl-3 text-left">
-                               Misión
-                            </h4>
-                            <p class="lead mb-4 pb-4 px-3 px-md-0">
-                               Mantenerse en permanente búsqueda de calidad y eficiencia en materiales, capacitación
-                               continua de nuestro personal, y generar un lazo de confianza con nuestros clientes
-                               entendiendo la responsabilidad de armar espacios íntimos para ellos.
-                            </p>
-                        </div>
-                        <div class="col-12 col-md-4">
-
-                        
-                         <h4 class="modular-subfont linea-modular py-1 pl-3 text-left">
-                            Compromiso
-                         </h4>
-                         <p class="lead mb-4 pb-4 px-3 px-md-0">
-                            Encontrar de manera conjunta materializar los lugares soñados para nuestros clientes,
-                            supervisar la calidad del producto en todas sus etapas de confección, tras una minuciosa
-                            búsqueda de proveedores de calidad para contar con materiales que estén a la altura de
-                            nuestras expectativas.
-                         </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
- <!-- SERVICIOS -->
- <section id="servicios" >
-     <div class="container text-white">
-        
-        <div class="row">
-            <div class="col text-center">
-
-                <h1 class="modular-font mt-4 display-4">servicios</h1>
-                <h4 class="modular-subfont  lead">"Diseñamos y materializamos soluciones espaciales"</h4>
-                <hr>
-            </div>
-        </div>
-        <div class="container">
-
-         
-            <div class="row text-center d-block d-md-flex justify-content-around modular-subfont my-4 pb-4">
-                <div class="col-12 col-md-2 ">
-                    
-                    <img class="plano pb-4" src="./assets/anteproyecto.svg" alt="">
-                    <h5 class="font-weight-bolder">Diseño modular </h5>
-                    
-                    
-                </div>
-                <div class="col-12 col-md-2">
-                    
-                    <img  src="./assets/envase.svg" alt="">
-                    <h5 class="font-weight-bolder">Contruccion transportable</h5>
-                    
-                     
-                </div>
-                <div class="col-12 col-md-2">
-                   
-                    <img src="./assets/envio-al-mundo-entero.svg" alt="">
-                    <h5 class="font-weight-bolder">Venta de contenedores maritimos</h5>  
-                </div>
-            </div>
-         <!--    <div class="row">
+		<!-- SERVICIOS -->
+		<section id="servicios">
+			<div class="container text-white">
+				<div class="row">
+					<div class="col text-center">
+						<h1 class="modular-font mt-4 display-4">servicios</h1>
+						<h4 class="modular-subfont lead">
+							"Diseñamos y materializamos soluciones espaciales"
+						</h4>
+						<hr />
+					</div>
+				</div>
+				<div class="container">
+					<div
+						class="row text-center d-block d-md-flex justify-content-around modular-subfont my-4 pb-4"
+					>
+						<div class="col-12 col-md-2">
+							<img class="plano pb-4" src="./assets/anteproyecto.svg" alt="" />
+							<h5 class="font-weight-bolder">Diseño modular</h5>
+						</div>
+						<div class="col-12 col-md-2">
+							<img src="./assets/envase.svg" alt="" />
+							<h5 class="font-weight-bolder">Contruccion transportable</h5>
+						</div>
+						<div class="col-12 col-md-2">
+							<img src="./assets/envio-al-mundo-entero.svg" alt="" />
+							<h5 class="font-weight-bolder">Venta de contenedores maritimos</h5>
+						</div>
+					</div>
+					<!--    <div class="row">
                 <div class="col-12 text-center my-2">
                     <h4>
                         Estas son nuestras principales actividades. Por consultas por otros servicios no dudes en contactarnos! 
@@ -224,861 +247,1605 @@
 
                 </div>
             </div> -->
-          
-           
-        </div>
-        </div>
-    
- </section>
+				</div>
+			</div>
+		</section>
 
-  <!--         MODELOS          -->
+		<!--         MODELOS          -->
 
- <section id="modelos">
+		<section id="modelos">
+			<div class="container">
+				<div class="row">
+					<div class="col text-center">
+						<h1 class="modular-font mt-4 display-4 modular-color">modelos</h1>
+						<h4 class="modular-subfont modular-subcolor lead">
+							Conoce algunos de nuestros diseños
+						</h4>
+					</div>
+				</div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col text-center">
-                
-                <h1 class="modular-font mt-4 display-4 modular-color">modelos</h1>
-                <h4 class="modular-subfont modular-subcolor lead">Conoce algunos de nuestros diseños</h4>
-                
-            </div>
-        </div>
-        
-            <div class="col-12">
-                <h4 class="modular-subfont pt-4 pb-4 text-center">Nuestros diseños estan divididos en tres categorias segun las caracteristicas de cada modelo</h4>
-            </div>
-            <div  class="row">
-                <div id="Viviendas" class="col">
-                    <div class="linea-modular">
-                        
-                        <h3 class="text-right modular-subfont p-3 text-white">Viviendas</h3>
-                    </div>
+				<div class="col-12">
+					<h4 class="modular-subfont pt-4 pb-4 text-center">
+						Nuestros diseños estan divididos en tres categorias segun las
+						caracteristicas de cada modelo
+					</h4>
+				</div>
+				<div class="row">
+					<div id="Viviendas" class="col">
+						<div class="linea-modular">
+							<h3 class="text-right modular-subfont p-3 text-white">Viviendas</h3>
+						</div>
 
-                    <div class="row row-cols-1 row-cols-md-2 mt-4 pt-4">
-                        <div class="col mb-4">
-                          <div class="card">
-                            <div id="carousel-traful" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                  </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="./assets/traful-07.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/traful-08.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/traful-09.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carousel-traful" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carousel-traful " role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </div>
-                            <div class="card-body">
-                              <h5 class="card-title linea-modular p-1 text-white modular-subfont text-center">Modelo Traful</h5>
-                              <p class="card-text">Con un tamaño total de 15 m2 con kitchenet y baño.</p>
-                              <a href="./assets/MOD - TRAFUL.pdf" target="_blank" class="card-link btn btn-modular">Descargar ficha tecnica</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col mb-4">
-                          <div class="card">
-                            <div id="carousel-alumine" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                  </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="./assets/ALUMINE-06.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/ALUMINE-08.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/ALUMINE-09.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carousel-alumine" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carousel-alumine " role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </div>
-                            <div class="card-body">
-                              <h5 class="card-title linea-modular p-1 text-white modular-subfont text-center">Modelo Aluminé</h5>
-                              <p class="card-text">Unidad de 30 m2 con una habitacion, comedor, cocina y baño.</p>
-                              <a href="./assets/MOD -ALUMINE.pdf" target="_blank" class="card-link btn btn-modular">Descargar ficha tecnica</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col mb-4">
-                          <div class="card">
-                            <div id="carousel-ñorquinco" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                  </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="./assets/ñoquinco-07.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/ñoquinco-08.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/ñoquinco-09.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carousel-ñorquinco" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carousel-ñorquinco " role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </div>
-                            <div class="card-body">
-                              <h5 class="card-title linea-modular p-1 text-white modular-subfont text-center">Modelo Ñorquinco</h5>
-                              <p class="card-text">Unidad de 45 m2 cuenta con 2 habitaciones, sala de estar, cocina-comedor y baño.</p>
-                              <a href="./assets/MOD - ÑORQUINCO.pdf" target="_blank" class="card-link btn btn-modular">Descargar ficha tecnica</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col mb-4">
-                          <div class="card">
-                            <div id="carousel-marimenuco" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                  </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="./assets/marimenu-07.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/marimenu-08.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/marimenu-09.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carousel-marimenuco" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carousel-marimenuco" role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </div>
-                            <div class="card-body">
-                              <h5 class="card-title linea-modular p-1 text-white modular-subfont text-center">Modelo Mari Menuco</h5>
-                              <p class="card-text">Unidad de 60 m2 cuenta con tres habitaciones, baño , cocina y living-comedor</p>
-                              <a href="./assets/MOD - MARI MENUCO.pdf" target="_blank" class="card-link btn btn-modular">Descargar ficha tecnica</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+						<div class="row row-cols-1 row-cols-md-2 mt-4 pt-4">
+							<div class="col mb-4">
+								<div class="card">
+									<div
+										id="carousel-traful"
+										class="carousel slide"
+										data-ride="carousel"
+									>
+										<ol class="carousel-indicators">
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="0"
+												class="active"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="1"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="2"
+											></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img
+													src="./assets/traful-07.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/traful-08.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/traful-09.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+										</div>
+										<a
+											class="carousel-control-prev"
+											href="#carousel-traful"
+											role="button"
+											data-slide="prev"
+										>
+											<span
+												class="carousel-control-prev-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a
+											class="carousel-control-next"
+											href="#carousel-traful "
+											role="button"
+											data-slide="next"
+										>
+											<span
+												class="carousel-control-next-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+									<div class="card-body">
+										<h5
+											class="card-title linea-modular p-1 text-white modular-subfont text-center"
+										>
+											Modelo Traful
+										</h5>
+										<p class="card-text">
+											Con un tamaño total de 15 m2 con kitchenet y baño.
+										</p>
+										<a
+											href="./assets/MOD - TRAFUL.pdf"
+											target="_blank"
+											class="card-link btn btn-modular"
+											>Descargar ficha tecnica</a
+										>
+									</div>
+								</div>
+							</div>
+							<div class="col mb-4">
+								<div class="card">
+									<div
+										id="carousel-alumine"
+										class="carousel slide"
+										data-ride="carousel"
+									>
+										<ol class="carousel-indicators">
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="0"
+												class="active"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="1"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="2"
+											></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img
+													src="./assets/ALUMINE-06.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/ALUMINE-08.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/ALUMINE-09.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+										</div>
+										<a
+											class="carousel-control-prev"
+											href="#carousel-alumine"
+											role="button"
+											data-slide="prev"
+										>
+											<span
+												class="carousel-control-prev-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a
+											class="carousel-control-next"
+											href="#carousel-alumine "
+											role="button"
+											data-slide="next"
+										>
+											<span
+												class="carousel-control-next-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+									<div class="card-body">
+										<h5
+											class="card-title linea-modular p-1 text-white modular-subfont text-center"
+										>
+											Modelo Aluminé
+										</h5>
+										<p class="card-text">
+											Unidad de 30 m2 con una habitacion, comedor, cocina y baño.
+										</p>
+										<a
+											href="./assets/MOD -ALUMINE.pdf"
+											target="_blank"
+											class="card-link btn btn-modular"
+											>Descargar ficha tecnica</a
+										>
+									</div>
+								</div>
+							</div>
+							<div class="col mb-4">
+								<div class="card">
+									<div
+										id="carousel-ñorquinco"
+										class="carousel slide"
+										data-ride="carousel"
+									>
+										<ol class="carousel-indicators">
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="0"
+												class="active"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="1"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="2"
+											></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img
+													src="./assets/ñoquinco-07.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/ñoquinco-08.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/ñoquinco-09.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+										</div>
+										<a
+											class="carousel-control-prev"
+											href="#carousel-ñorquinco"
+											role="button"
+											data-slide="prev"
+										>
+											<span
+												class="carousel-control-prev-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a
+											class="carousel-control-next"
+											href="#carousel-ñorquinco "
+											role="button"
+											data-slide="next"
+										>
+											<span
+												class="carousel-control-next-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+									<div class="card-body">
+										<h5
+											class="card-title linea-modular p-1 text-white modular-subfont text-center"
+										>
+											Modelo Ñorquinco
+										</h5>
+										<p class="card-text">
+											Unidad de 45 m2 cuenta con 2 habitaciones, sala de estar,
+											cocina-comedor y baño.
+										</p>
+										<a
+											href="./assets/MOD - ÑORQUINCO.pdf"
+											target="_blank"
+											class="card-link btn btn-modular"
+											>Descargar ficha tecnica</a
+										>
+									</div>
+								</div>
+							</div>
+							<div class="col mb-4">
+								<div class="card">
+									<div
+										id="carousel-marimenuco"
+										class="carousel slide"
+										data-ride="carousel"
+									>
+										<ol class="carousel-indicators">
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="0"
+												class="active"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="1"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="2"
+											></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img
+													src="./assets/marimenu-07.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/marimenu-08.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/marimenu-09.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+										</div>
+										<a
+											class="carousel-control-prev"
+											href="#carousel-marimenuco"
+											role="button"
+											data-slide="prev"
+										>
+											<span
+												class="carousel-control-prev-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a
+											class="carousel-control-next"
+											href="#carousel-marimenuco"
+											role="button"
+											data-slide="next"
+										>
+											<span
+												class="carousel-control-next-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+									<div class="card-body">
+										<h5
+											class="card-title linea-modular p-1 text-white modular-subfont text-center"
+										>
+											Modelo Mari Menuco
+										</h5>
+										<p class="card-text">
+											Unidad de 60 m2 cuenta con tres habitaciones, baño , cocina y
+											living-comedor
+										</p>
+										<a
+											href="./assets/MOD - MARI MENUCO.pdf"
+											target="_blank"
+											class="card-link btn btn-modular"
+											>Descargar ficha tecnica</a
+										>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div id="Quinchos" class="col">
+						<div class="linea-modular">
+							<h3 class="text-right modular-subfont p-3 mt-4 text-white">
+								Quinchos
+							</h3>
+						</div>
 
-                </div>
-            </div>
-            <div class="row">
-                <div id="Quinchos" class="col">
-                    <div class="linea-modular">
-                        
-                        <h3 class="text-right modular-subfont p-3 mt-4 text-white">Quinchos</h3>
-                    </div>
+						<div class="row row-cols-1 row-cols-md-2 mt-4 pt-4">
+							<div class="col mb-4">
+								<div class="card">
+									<div
+										id="carousel-chocon"
+										class="carousel slide"
+										data-ride="carousel"
+									>
+										<ol class="carousel-indicators">
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="0"
+												class="active"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="1"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="2"
+											></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img
+													src="./assets/choc1.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/choc2.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/choc3.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+										</div>
+										<a
+											class="carousel-control-prev"
+											href="#carousel-chocon"
+											role="button"
+											data-slide="prev"
+										>
+											<span
+												class="carousel-control-prev-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a
+											class="carousel-control-next"
+											href="#carousel-chocon"
+											role="button"
+											data-slide="next"
+										>
+											<span
+												class="carousel-control-next-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+									<div class="card-body">
+										<h5
+											class="card-title linea-modular p-1 text-white modular-subfont text-center"
+										>
+											Modelo Chocon
+										</h5>
+										<p class="card-text">
+											Unidad con parrilla con espacio para mesa de 8 personas
+											sentadas.
+										</p>
+										<a
+											href="./assets/MOD -CHOCON 01.pdf"
+											target="_blank"
+											class="card-link btn btn-modular"
+											>Descargar ficha tecnica</a
+										>
+									</div>
+								</div>
+							</div>
+							<div class="col mb-4">
+								<div class="card">
+									<div
+										id="carousel-moquehue1"
+										class="carousel slide"
+										data-ride="carousel"
+									>
+										<ol class="carousel-indicators">
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="0"
+												class="active"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="1"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="2"
+											></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img
+													src="./assets/moque1-1.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/moque1-2.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/moque1-3.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+										</div>
+										<a
+											class="carousel-control-prev"
+											href="#carousel-moquehue1"
+											role="button"
+											data-slide="prev"
+										>
+											<span
+												class="carousel-control-prev-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a
+											class="carousel-control-next"
+											href="#carousel-moquehue1 "
+											role="button"
+											data-slide="next"
+										>
+											<span
+												class="carousel-control-next-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+									<div class="card-body">
+										<h5
+											class="card-title linea-modular p-1 text-white modular-subfont text-center"
+										>
+											Modelo Moquehue I
+										</h5>
+										<p class="card-text">
+											Unidad con parrilla con espacio para mesa de 8 personas
+											sentadas.
+										</p>
+										<a
+											href="./assets/MOD - MOQUEHUE 01.pdf"
+											target="_blank"
+											class="card-link btn btn-modular"
+											>Descargar ficha tecnica</a
+										>
+									</div>
+								</div>
+							</div>
+							<div class="col mb-4">
+								<div class="card">
+									<div
+										id="carousel-moquehue2"
+										class="carousel slide"
+										data-ride="carousel"
+									>
+										<ol class="carousel-indicators">
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="0"
+												class="active"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="1"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="2"
+											></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img
+													src="./assets/moquehue02-07.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/moquehue02-08.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/moquehue02-09.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+										</div>
+										<a
+											class="carousel-control-prev"
+											href="#carousel-moquehue2"
+											role="button"
+											data-slide="prev"
+										>
+											<span
+												class="carousel-control-prev-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a
+											class="carousel-control-next"
+											href="#carousel-moquehue2"
+											role="button"
+											data-slide="next"
+										>
+											<span
+												class="carousel-control-next-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+									<div class="card-body">
+										<h5
+											class="card-title linea-modular p-1 text-white modular-subfont text-center"
+										>
+											Modelo Moquehue II
+										</h5>
+										<p class="card-text">
+											Unidad con parrilla con espacio para mesa de 8 personas
+											sentadas con paños abiertos.
+										</p>
+										<a
+											href="./assets/MOD - MOQUEHUE 02.pdf"
+											target="_blank"
+											class="card-link btn btn-modular"
+											>Descargar ficha tecnica</a
+										>
+									</div>
+								</div>
+							</div>
+							<div class="col mb-4">
+								<div class="card">
+									<div id="carousel-mas" class="carousel slide" data-ride="carousel">
+										<ol class="carousel-indicators">
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="0"
+												class="active"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="1"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="2"
+											></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img
+													src="./assets/diseños-08.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/diseños-09.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+										</div>
+										<a
+											class="carousel-control-prev"
+											href="#carousel-mas"
+											role="button"
+											data-slide="prev"
+										>
+											<span
+												class="carousel-control-prev-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a
+											class="carousel-control-next"
+											href="#carousel-mas"
+											role="button"
+											data-slide="next"
+										>
+											<span
+												class="carousel-control-next-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+									<div class="card-body">
+										<h5
+											class="card-title linea-modular p-1 text-white modular-subfont text-center"
+										>
+											Proximamente mas modelos!
+										</h5>
+										<p class="card-text">
+											Pronto se agregaran nuevos diseños. Si necesitas algo mas
+											especifico no dudes en escribirnos!
+										</p>
+										<a
+											href="./assets/MOD - MARI MENUCO.pdf"
+											target="_blank"
+											class="card-link btn btn-modular"
+											>Contactanos</a
+										>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div id="Espacios" class="col">
+						<div class="linea-modular">
+							<h3 class="text-right modular-subfont p-3 mt-4 text-white">
+								Espacios
+							</h3>
+						</div>
 
-                    <div class="row row-cols-1 row-cols-md-2 mt-4 pt-4">
-                        <div class="col mb-4">
-                          <div class="card">
-                            <div id="carousel-chocon" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                  </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="./assets/choc1.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/choc2.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/choc3.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carousel-chocon" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carousel-chocon" role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </div>
-                            <div class="card-body">
-                              <h5 class="card-title linea-modular p-1 text-white modular-subfont text-center">Modelo Chocon</h5>
-                              <p class="card-text">Unidad con parrilla con espacio para mesa de 8 personas sentadas.</p>
-                              <a href="./assets/MOD -CHOCON 01.pdf" target="_blank" class="card-link btn btn-modular">Descargar ficha tecnica</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col mb-4">
-                          <div class="card">
-                            <div id="carousel-moquehue1" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                  </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="./assets/moque1-1.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/moque1-2.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/moque1-3.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carousel-moquehue1" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carousel-moquehue1 " role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </div>
-                            <div class="card-body">
-                              <h5 class="card-title linea-modular p-1 text-white modular-subfont text-center">Modelo Moquehue I</h5>
-                              <p class="card-text">Unidad con parrilla con espacio para mesa de 8 personas sentadas.</p>
-                              <a href="./assets/MOD - MOQUEHUE 01.pdf" target="_blank" class="card-link btn btn-modular">Descargar ficha tecnica</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col mb-4">
-                          <div class="card">
-                            <div id="carousel-moquehue2" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                  </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="./assets/moquehue02-07.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/moquehue02-08.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/moquehue02-09.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                 
-                                </div>
-                                <a class="carousel-control-prev" href="#carousel-moquehue2" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carousel-moquehue2" role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </div>
-                            <div class="card-body">
-                              <h5 class="card-title linea-modular p-1 text-white modular-subfont text-center">Modelo Moquehue II</h5>
-                              <p class="card-text">Unidad con parrilla con espacio para mesa de 8 personas sentadas con paños abiertos.</p>
-                              <a href="./assets/MOD - MOQUEHUE 02.pdf" target="_blank" class="card-link btn btn-modular">Descargar ficha tecnica</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col mb-4">
-                          <div class="card">
-                            <div id="carousel-mas" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                  </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="./assets/diseños-08.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/diseños-09.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                 
-                                </div>
-                                <a class="carousel-control-prev" href="#carousel-mas" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carousel-mas" role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </div>
-                            <div class="card-body">
-                              <h5 class="card-title linea-modular p-1 text-white modular-subfont text-center">Proximamente mas modelos!</h5>
-                              <p class="card-text">Pronto se agregaran nuevos diseños. Si necesitas algo mas especifico no dudes en escribirnos!</p>
-                              <a href="./assets/MOD - MARI MENUCO.pdf" target="_blank" class="card-link btn btn-modular">Contactanos</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+						<div class="row row-cols-1 row-cols-md-2 mt-4 pt-4">
+							<div class="col mb-4">
+								<div class="card">
+									<div
+										id="carousel-lacar1"
+										class="carousel slide"
+										data-ride="carousel"
+									>
+										<ol class="carousel-indicators">
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="0"
+												class="active"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="1"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="2"
+											></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img
+													src="./assets/lacar1.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/lacar1.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/lacar1.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+										</div>
+										<a
+											class="carousel-control-prev"
+											href="#carousel-lacar1"
+											role="button"
+											data-slide="prev"
+										>
+											<span
+												class="carousel-control-prev-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a
+											class="carousel-control-next"
+											href="#carousel-lacar2"
+											role="button"
+											data-slide="next"
+										>
+											<span
+												class="carousel-control-next-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+									<div class="card-body">
+										<h5
+											class="card-title linea-modular p-1 text-white modular-subfont text-center"
+										>
+											Modelo Lacar I
+										</h5>
+										<p class="card-text">
+											Unidad para almacenamiento de exelente resistencia.
+										</p>
+										<a
+											href="./assets/MOD -LACAR 01.pdf"
+											target="_blank"
+											class="card-link btn btn-modular"
+											>Descargar ficha tecnica</a
+										>
+									</div>
+								</div>
+							</div>
+							<div class="col mb-4">
+								<div class="card">
+									<div
+										id="carousel-lacar2"
+										class="carousel slide"
+										data-ride="carousel"
+									>
+										<ol class="carousel-indicators">
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="0"
+												class="active"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="1"
+											></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img
+													src="./assets/lacar2-1.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/lacar2-2.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+										</div>
+										<a
+											class="carousel-control-prev"
+											href="#carousel-lacar2"
+											role="button"
+											data-slide="prev"
+										>
+											<span
+												class="carousel-control-prev-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a
+											class="carousel-control-next"
+											href="#carousel-lacar2"
+											role="button"
+											data-slide="next"
+										>
+											<span
+												class="carousel-control-next-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+									<div class="card-body">
+										<h5
+											class="card-title linea-modular p-1 text-white modular-subfont text-center"
+										>
+											Modelo Lacar II
+										</h5>
+										<p class="card-text">
+											Unidad pequeña y robusta ideal para taller o almacenamiento.
+										</p>
+										<a
+											href="./assets/MOD -LACAR 02.pdf"
+											target="_blank"
+											class="card-link btn btn-modular"
+											>Descargar ficha tecnica</a
+										>
+									</div>
+								</div>
+							</div>
+							<div class="col mb-4">
+								<div class="card">
+									<div
+										id="carousel-paimun1"
+										class="carousel slide"
+										data-ride="carousel"
+									>
+										<ol class="carousel-indicators">
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="0"
+												class="active"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="1"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="2"
+											></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img
+													src="./assets/paimun-01.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/paimun-02.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/paimun-03.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+										</div>
+										<a
+											class="carousel-control-prev"
+											href="#carousel-paimun1"
+											role="button"
+											data-slide="prev"
+										>
+											<span
+												class="carousel-control-prev-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a
+											class="carousel-control-next"
+											href="#carousel-paimun1"
+											role="button"
+											data-slide="next"
+										>
+											<span
+												class="carousel-control-next-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+									<div class="card-body">
+										<h5
+											class="card-title linea-modular p-1 text-white modular-subfont text-center"
+										>
+											Modelo Paimun I
+										</h5>
+										<p class="card-text">
+											Unidad pequeña ideal para oficina o estudio.
+										</p>
+										<a
+											href="./assets/MOD - PAIMUN 01 (REVESTIMIENTO MADERA).pdf"
+											target="_blank"
+											class="card-link btn btn-modular"
+											>Descargar ficha tecnica</a
+										>
+									</div>
+								</div>
+							</div>
+							<div class="col mb-4">
+								<div class="card">
+									<div
+										id="carousel-paimunxl"
+										class="carousel slide"
+										data-ride="carousel"
+									>
+										<ol class="carousel-indicators">
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="0"
+												class="active"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="1"
+											></li>
+											<li
+												data-target="#carouselExampleIndicators"
+												data-slide-to="2"
+											></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img
+													src="./assets/paimunxl-07.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/paimunxl-08.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+											<div class="carousel-item">
+												<img
+													src="./assets/paimunxl-09.jpg"
+													class="d-block w-100"
+													alt="..."
+												/>
+											</div>
+										</div>
+										<a
+											class="carousel-control-prev"
+											href="#carousel-paimunxl"
+											role="button"
+											data-slide="prev"
+										>
+											<span
+												class="carousel-control-prev-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a
+											class="carousel-control-next"
+											href="#carousel-paimunxl"
+											role="button"
+											data-slide="next"
+										>
+											<span
+												class="carousel-control-next-icon"
+												aria-hidden="true"
+											></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+									<div class="card-body">
+										<h5
+											class="card-title linea-modular p-1 text-white modular-subfont text-center"
+										>
+											Modelo Paimun XL
+										</h5>
+										<p class="card-text">
+											Unidad pequeña puede construirse con baño y kichenette o sin
+											estos.
+										</p>
+										<p class="modular-color">Descargar ficha tecnica</p>
+										<a
+											href="./assets/MOD - PAIMUN XL (con baño y kichenette).pdf"
+											target="_blank"
+											class="card-link btn btn-modular"
+											>Con baño</a
+										>
+										<a
+											href="./assets/MOD - PAIMUN XL.pdf"
+											target="_blank"
+											class="card-link btn btn-modular"
+											>Sin baño</a
+										>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-                </div>
-            </div>
-            <div class="row">
-                <div id="Espacios" class="col">
-                    <div class="linea-modular">
-                        
-                        <h3 class="text-right modular-subfont p-3 mt-4 text-white">Espacios</h3>
-                    </div>
+		<!-- /MODELOS    -->
 
-                    <div class="row row-cols-1 row-cols-md-2 mt-4 pt-4">
-                        <div class="col mb-4">
-                          <div class="card">
-                            <div id="carousel-lacar1" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                  </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="./assets/lacar1.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/lacar1.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/lacar1.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carousel-lacar1" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carousel-lacar2" role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </div>
-                            <div class="card-body">
-                              <h5 class="card-title linea-modular p-1 text-white modular-subfont text-center">Modelo Lacar I</h5>
-                              <p class="card-text">Unidad para almacenamiento de exelente resistencia.</p>
-                              <a href="./assets/MOD -LACAR 01.pdf" target="_blank" class="card-link btn btn-modular">Descargar ficha tecnica</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col mb-4">
-                          <div class="card">
-                            <div id="carousel-lacar2" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                   
-                                  </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="./assets/lacar2-1.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/lacar2-2.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  
-                                </div>
-                                <a class="carousel-control-prev" href="#carousel-lacar2" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carousel-lacar2" role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </div>
-                            <div class="card-body">
-                              <h5 class="card-title linea-modular p-1 text-white modular-subfont text-center">Modelo Lacar II</h5>
-                              <p class="card-text">Unidad pequeña y robusta ideal para taller o almacenamiento.</p>
-                              <a href="./assets/MOD -LACAR 02.pdf" target="_blank" class="card-link btn btn-modular">Descargar ficha tecnica</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col mb-4">
-                          <div class="card">
-                            <div id="carousel-paimun1" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                  </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="./assets/paimun-01.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/paimun-02.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/paimun-03.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                 
-                                </div>
-                                <a class="carousel-control-prev" href="#carousel-paimun1" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carousel-paimun1" role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </div>
-                            <div class="card-body">
-                              <h5 class="card-title linea-modular p-1 text-white modular-subfont text-center">Modelo Paimun I</h5>
-                              <p class="card-text">Unidad pequeña ideal para oficina o estudio.</p>
-                              <a href="./assets/MOD - PAIMUN 01 (REVESTIMIENTO MADERA).pdf" target="_blank" class="card-link btn btn-modular">Descargar ficha tecnica</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col mb-4">
-                          <div class="card">
-                            <div id="carousel-paimunxl" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                  </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="./assets/paimunxl-07.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/paimunxl-08.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/paimunxl-09.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carousel-paimunxl" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carousel-paimunxl" role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </div>
-                            <div class="card-body">
-                              <h5 class="card-title linea-modular p-1 text-white modular-subfont text-center">Modelo Paimun XL</h5>
-                              <p class="card-text">Unidad pequeña puede construirse con baño y kichenette o sin estos.</p>
-                              <p class="modular-color">Descargar ficha tecnica</p>
-                              <a href="./assets/MOD - PAIMUN XL (con baño y kichenette).pdf" target="_blank" class="card-link btn btn-modular">Con baño</a>
-                              <a href="./assets/MOD - PAIMUN XL.pdf" target="_blank" class="card-link btn btn-modular">Sin baño</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+		<!-- FAQ-->
 
-                </div>
-            </div>
-        
-    </div>
- </section>
+		<section id="preguntas">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h1 class="modular-font mt-4 modular-color display-4 text-center">
+							preguntas frecuentes
+						</h1>
+						<h5 class="modular-subfont modular-subcolor lead text-center">
+							Algunas consultas habituales
+						</h5>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 mt-4">
+						<h3 class="linea-modular text-white p-1 modular-subfont">Generales</h3>
+					</div>
+				</div>
+				<div class="row mt-4">
+					<div
+						class="col-10 col-md-6 d-none d-md-flex justify-content-center align-items-center"
+					>
+						<img class="faq-img" src="./assets/pregunta.svg" alt="" />
+					</div>
+					<div
+						class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-2"
+					>
+						<div class="accordion mt-4 mt-md-0" id="accordionExample">
+							<div class="card">
+								<div class="card-header" id="headingOne">
+									<h2 class="mb-0">
+										<button
+											class="btn btn-link btn-block text-center text-decoration-none modular-subfont"
+											type="button"
+											data-toggle="collapse"
+											data-target="#collapseOne"
+											aria-expanded="true"
+											aria-controls="collapseOne"
+										>
+											¿Que es un contenedor maritimo?
+										</button>
+									</h2>
+								</div>
 
-<!-- /MODELOS    -->
+								<div
+									id="collapseOne"
+									class="collapse"
+									aria-labelledby="headingOne"
+									data-parent="#accordionExample"
+								>
+									<div class="card-body">
+										Un contenedor es un recipiente de carga para el transporte
+										maritimo, fluvial o terrestre. Se trata de unidades que protegen
+										las mercancias de el clima y que estan fabricadas bajo normas
+										ISO.
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingTwo">
+									<h2 class="mb-0">
+										<button
+											class="btn btn-link btn-block text-left text-center text-decoration-none collapsed modular-subfont"
+											type="button"
+											data-toggle="collapse"
+											data-target="#collapseTwo"
+											aria-expanded="false"
+											aria-controls="collapseTwo"
+										>
+											¿Cuanto mide un contenedor?
+										</button>
+									</h2>
+								</div>
+								<div
+									id="collapseTwo"
+									class="collapse"
+									aria-labelledby="headingTwo"
+									data-parent="#accordionExample"
+								>
+									<div class="card-body">
+										Las dimensiones de los contenedores estan estandarizadas para
+										facilitar su manipulacion suelen encontrarse de 6 metros de largo
+										(20 pies) y 12 metros de largo (40 pies) ambos con 2.4 metros de
+										ancho.
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingThree">
+									<h2 class="mb-0">
+										<button
+											class="btn btn-link btn-block text-left text-decoration-none collapsed modular-subfont"
+											type="button"
+											data-toggle="collapse"
+											data-target="#collapseThree"
+											aria-expanded="false"
+											aria-controls="collapseThree"
+										>
+											¿Que ventajas tienen la construccion en contenedores?
+										</button>
+									</h2>
+								</div>
+								<div
+									id="collapseThree"
+									class="collapse"
+									aria-labelledby="headingThree"
+									data-parent="#accordionExample"
+								>
+									<div class="card-body">
+										<div class="row">
+											<div class="col-12">
+												Algunas de las ventajas mas destacables de este tipo de
+												construcciones son :
+											</div>
+											<div class="col">
+												<ul>
+													<li>Son muy faciles de transportar</li>
+													<li>Construccion rapida</li>
+													<li>Resistencia y seguridad</li>
+													<li>Eco-sustentable</li>
+													<li>Versatilidad</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 mt-4">
+						<h3 class="linea-modular text-white p-1 modular-subfont">Instalacion</h3>
+					</div>
+				</div>
+				<div class="row mt-4">
+					<div
+						class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-2"
+					>
+						<div class="accordion mt-4 mt-md-0" id="accordion">
+							<div class="card">
+								<div class="card-header" id="headingUno">
+									<h2 class="mb-0">
+										<button
+											class="btn btn-link btn-block text-center text-decoration-none modular-subfont"
+											type="button"
+											data-toggle="collapse"
+											data-target="#collapseUno"
+											aria-expanded="true"
+											aria-controls="collapseOne"
+										>
+											Instalacion electrica
+										</button>
+									</h2>
+								</div>
 
+								<div
+									id="collapseUno"
+									class="collapse"
+									aria-labelledby="headingOne"
+									data-parent="#accordionExample"
+								>
+									<div class="card-body">
+										Los productos de MODULAR, proveen instalación lista para
+										conectarse a la red eléctrica.
+										<ul>
+											<li>Medidor</li>
+											<li>Tablero eléctrico existente</li>
+											<li>Paneles solares</li>
+											<li>Energia eólica</li>
+											<li>Grupo electrógeno</li>
+										</ul>
+										Se determinará en cada caso particularmente el consumo del
+										MODULAR, indicando si se necesita instalación trifásica o
+										monofásica.
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingDos">
+									<h2 class="mb-0">
+										<button
+											class="btn btn-link btn-block text-left text-center text-decoration-none collapsed modular-subfont"
+											type="button"
+											data-toggle="collapse"
+											data-target="#collapseDos"
+											aria-expanded="false"
+											aria-controls="collapseTwo"
+										>
+											Instalacion cloacal
+										</button>
+									</h2>
+								</div>
+								<div
+									id="collapseDos"
+									class="collapse"
+									aria-labelledby="headingTwo"
+									data-parent="#accordionExample"
+								>
+									<div class="card-body">
+										Los productos de MODULAR, proveen instalación lista para
+										conectarse al sistema final de desagüe.
+										<ul>
+											<li>Red cloacal</li>
+											<li>Lecho nitrificante</li>
+											<li>Cámara séptica y pozo absorvente</li>
+											<li>Planta de tratamientos</li>
+										</ul>
+										<div class="alert alert-light" role="alert">
+											En todos los casos se deberá llevar la conexión hasta el punto
+											de instalación del módulo.
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingTres">
+									<h2 class="mb-0">
+										<button
+											class="btn btn-link btn-block text-center text-decoration-none collapsed modular-subfont"
+											type="button"
+											data-toggle="collapse"
+											data-target="#collapseTres"
+											aria-expanded="false"
+											aria-controls="collapseThree"
+										>
+											Instalacion de agua
+										</button>
+									</h2>
+								</div>
+								<div
+									id="collapseTres"
+									class="collapse"
+									aria-labelledby="headingThree"
+									data-parent="#accordionExample"
+								>
+									<div class="card-body">
+										Los productos de MODULAR, proveen instalación lista para
+										conectarse a la red de provisión de agua.
+										<ul>
+											<li>Red de agua municipal</li>
+											<li>Perforacion</li>
+											<li>Cisterna</li>
+										</ul>
+										<div class="alert alert-light" role="alert">
+											En todos los casos se deberá llevar la conexión hasta el punto
+											de instalación del módulo.
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingCuatro">
+									<h2 class="mb-0">
+										<button
+											class="btn btn-link btn-block text-center text-decoration-none collapsed modular-subfont"
+											type="button"
+											data-toggle="collapse"
+											data-target="#collapseCuatro"
+											aria-expanded="false"
+											aria-controls="collapseThree"
+										>
+											Permisos
+										</button>
+									</h2>
+								</div>
+								<div
+									id="collapseCuatro"
+									class="collapse"
+									aria-labelledby="headingThree"
+									data-parent="#accordionExample"
+								>
+									<div class="card-body">
+										De requerir la presentación de planos y proyecto, MODULAR puede
+										gestionar el tramite cobrándose particularmente, también puede el
+										cliente gestionarlo por sus propios medios, dejando en manos de
+										MODULAR solo la fabricación.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="col-10 col-md-6 d-none d-md-flex justify-content-center align-items-center"
+					>
+						<img class="faq-img" src="./assets/mantenimiento.svg" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
 
-<!-- FAQ-->
+		<section id="contacto">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h1 class="modular-font mt-4 modular-color display-4 text-center">
+							contacto
+						</h1>
+						<hr />
+					</div>
+				</div>
+				<div class="row modular-subfont">
+					<div class="col-12 col-md-6 pt-2 mt-4 mb-4">
+						<h4
+							class="modular-subfont text-white text-center lead my-4 linea-modular p-2"
+						>
+							Medios de contacto
+						</h4>
+						<ul class="modular-subfont">
+							<li class="pt-2">
+								<a href="https://www.instagram.com/modularneuquen/" target="_blank">
+									<img src="./assets/instagram-modular.svg" alt="instagram" />
+									Instagram
+								</a>
+							</li>
+							<li class="pt-2">
+								<a
+									href="https://www.facebook.com/Modular-126707452171065/"
+									target="_blank"
+								>
+									<img src="./assets/facebook-modular.svg" alt="Facebook" />
+									Facebook
+								</a>
+							</li>
+							<li class="py-2">
+								<a
+									href="https://api.whatsapp.com/send?phone=5492994616328&text=Hola%20Modular!"
+								>
+									<img src="./assets/whatsapp-modular.svg" alt="Whatsapp" />
+									Whatsapp
+								</a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<h5 class="text-left">
+									<img class="pr-2" src="./assets/llamada.svg" alt="telefono" />
+									299 4 616328
+								</h5>
+							</li>
+							<li>
+								<h5 class="text-left">
+									<img class="pr-2" src="./assets/correo.svg" alt="mail" />
+									contacto@modularneuquen.com
+								</h5>
+							</li>
+						</ul>
+					</div>
 
-<section id="preguntas">
-    <div class="container">
+					<div class="col-12 col-md-6 pt-2 mt-4 mb-4">
+						<h4 class="modular-subfont modular-color text-center lead my-4">
+							Envíanos tu consulta
+						</h4>
+						<form action="/send-email" method="POST">
+							<div class="form-row">
+								<div class="form-group col-12 col-md-6">
+									<input
+										type="text"
+										class="form-control formulario"
+										name="name"
+										placeholder="Nombre"
+									/>
+								</div>
+								<div class="form-group col-12 col-md-6">
+									<input
+										type="text"
+										class="form-control"
+										name="apellido"
+										placeholder="Apellido"
+									/>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-12 col-md-12">
+									<input
+										type="text"
+										class="form-control"
+										name="email"
+										placeholder="Email"
+									/>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-12 col-md-12">
+									<input
+										type="tel"
+										class="form-control"
+										name="tel"
+										placeholder="Teléfono"
+									/>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group form-group-lg col-12">
+									<textarea
+										class="form-control"
+										id="exampleFormControlTextarea1"
+										placeholder="Escríbenos tu consulta"
+										name="message"
+										rows="3"
+									></textarea>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col">
+									<button type="submit" class="btn btn-block btn-modular">
+										Enviar
+									</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        <div class="row">
-            <div class="col">
-                <h1 class="modular-font mt-4 modular-color display-4 text-center">
-                    preguntas frecuentes
-                </h1>
-                <h5 class="modular-subfont modular-subcolor lead text-center">Algunas consultas habituales</h5>
-            </div>
-        </div>
-        <div class="row">
+		<!-- Footer -->
+		<section id="footer">
+			<div class="container-fluid">
+				<div class="row text-center">
+					<div class="col-12 col-md-6 text-white mt-4">
+						<h3 class="modular-font">seguinos en</h3>
+						<ul class="modular-subfont">
+							<li class="pt-2">
+								<a href="https://www.instagram.com/modularneuquen/" target="_blank">
+									<img src="./assets/instagram.svg" alt="instagram" />
+									Instagram
+								</a>
+							</li>
+							<li class="pt-2">
+								<a
+									href="https://www.facebook.com/Modular-126707452171065/"
+									target="_blank"
+								>
+									<img src="./assets/facebook.svg" alt="Facebook" />
+									Facebook
+								</a>
+							</li>
+							<li class="py-2">
+								<a
+									href="https://api.whatsapp.com/send?phone=5492994616328&text=Hola%20Modular!"
+								>
+									<img src="./assets/whatsapp.svg" alt="Whatsapp" />
+									Whatsapp
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div
+						class="col-12 col-md-6 py-3 d-flex justify-content-center align-items-center"
+					>
+						<img class="logo-footer" src="./assets/perfil-02.png" alt="" />
+					</div>
+				</div>
+				<div class="row text-white text-center">
+					<div
+						class="col-12 col-md-6 borde-footer d-flex align-items-center justify-content-center py-4"
+					>
+						Modular espacios © 2020 / Todos los derechos reservados.
+					</div>
+					<div
+						class="col-12 col-md-6 borde-footer d-flex align-items-center justify-content-center py-3"
+					>
+						Web desing por &nbsp;<a
+							class="text-white"
+							href="https://github.com/panchixnrc"
+						>
+							Francisco Sepulveda</a
+						>
+					</div>
+				</div>
+			</div>
+		</section>
 
-            <div class="col-12 mt-4">
-                <h3 class="linea-modular text-white p-1 modular-subfont">Generales</h3>
-            </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-10 col-md-6 d-none d-md-flex justify-content-center align-items-center">
-                <img class="faq-img" src="./assets/pregunta.svg" alt="">
-            </div>
-            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-2">
-                <div class="accordion mt-4 mt-md-0" id="accordionExample">
-                    <div class="card">
-                      <div class="card-header" id="headingOne">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-center text-decoration-none modular-subfont" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          
-                            ¿Que es un contenedor maritimo? 
-                        
-                          </button>
-                        </h2>
-                      </div>
-                  
-                      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Un contenedor es un recipiente de carga para el transporte maritimo, fluvial o terrestre. Se trata de unidades que protegen las mercancias de el clima y que estan fabricadas bajo normas ISO.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header" id="headingTwo">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left text-center text-decoration-none collapsed modular-subfont" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            ¿Cuanto mide un contenedor?
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Las dimensiones de los contenedores estan estandarizadas para facilitar su manipulacion suelen encontrarse de 6 metros de largo (20 pies) y 12 metros de largo (40 pies) ambos con 2.4 metros de ancho.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header" id="headingThree">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left text-decoration-none collapsed modular-subfont" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            ¿Que ventajas tienen la construccion en contenedores?
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-12">
-                                    Algunas de las ventajas mas destacables de este tipo de construcciones son :
-    
-                                </div>
-                                <div class="col">
-                                    <ul>
-                                        <li>
-                                            Son muy faciles de transportar
-                                        </li>
-                                        <li>
-                                            Construccion rapida
-                                        </li>
-                                        <li>
-                                            Resistencia y seguridad
-                                        </li>
-                                        <li>
-                                            Eco-sustentable
-                                        </li>
-                                        <li>
-                                            Versatilidad
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-        </div>
-        <div class="row">
-
-            <div class="col-12 mt-4">
-                <h3 class="linea-modular text-white p-1 modular-subfont">Instalacion</h3>
-            </div>
-        </div>
-        <div class="row mt-4">
-            
-            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-2">
-                <div class="accordion mt-4 mt-md-0" id="accordion">
-                    <div class="card">
-                      <div class="card-header" id="headingUno">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-center text-decoration-none modular-subfont" type="button" data-toggle="collapse" data-target="#collapseUno" aria-expanded="true" aria-controls="collapseOne">
-                          
-                            Instalacion electrica
-                        
-                          </button>
-                        </h2>
-                      </div>
-                  
-                      <div id="collapseUno" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Los productos de MODULAR, proveen instalación lista para conectarse a la red eléctrica.
-                            <ul>
-                                <li>Medidor</li>
-                                <li>Tablero eléctrico existente</li>
-                                <li>Paneles solares</li>
-                                <li>Energia eólica</li>
-                                <li>Grupo electrógeno</li>
-                            </ul>
-                            Se determinará en cada caso particularmente el consumo del MODULAR, indicando si se necesita instalación trifásica o monofásica.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header" id="headingDos">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left text-center text-decoration-none collapsed modular-subfont" type="button" data-toggle="collapse" data-target="#collapseDos" aria-expanded="false" aria-controls="collapseTwo">
-                            Instalacion cloacal
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseDos" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Los productos de MODULAR, proveen instalación lista para conectarse al sistema final de desagüe.
-                            <ul>
-                                <li>Red cloacal </li>
-                                <li>Lecho nitrificante </li>
-                                <li>Cámara séptica y pozo absorvente </li>
-                                <li>Planta de tratamientos </li>
-                            </ul>
-                            <div class="alert alert-light" role="alert">
-                                En todos los casos se deberá llevar la conexión hasta el punto de instalación del módulo.
-                              </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header" id="headingTres">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-center  text-decoration-none collapsed modular-subfont" type="button" data-toggle="collapse" data-target="#collapseTres" aria-expanded="false" aria-controls="collapseThree">
-                            Instalacion de agua
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseTres" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Los productos de MODULAR, proveen instalación lista para conectarse a la red de provisión de agua.
-                            <ul>
-                                <li>Red de agua municipal</li>
-                                <li>Perforacion</li>
-                                <li>Cisterna</li>
-                            </ul>
-                            <div class="alert alert-light" role="alert">
-                                En todos los casos se deberá llevar la conexión hasta el punto de instalación del módulo.
-                              </div>
-                           
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingCuatro">
-                          <h2 class="mb-0">
-                            <button class="btn btn-link btn-block text-center text-decoration-none collapsed modular-subfont" type="button" data-toggle="collapse" data-target="#collapseCuatro" aria-expanded="false" aria-controls="collapseThree">
-                              Permisos
-                            </button>
-                          </h2>
-                        </div>
-                        <div id="collapseCuatro" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                          <div class="card-body">
-                              
-                            De requerir la presentación de planos y proyecto, MODULAR puede gestionar el tramite cobrándose particularmente, también puede el cliente gestionarlo por sus propios medios, dejando en manos de MODULAR solo la fabricación.
-                                 
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-            </div>
-            <div class="col-10 col-md-6 d-none d-md-flex justify-content-center align-items-center">
-                <img class="faq-img" src="./assets/mantenimiento.svg" alt="">
-            </div>
-        </div>
-    </div>
-</section>
-
-    <section id="contacto">
-        <div class="container">
-    
-            <div class="row">
-                <div class="col">
-                    <h1 class="modular-font mt-4 modular-color display-4 text-center">
-                        contacto
-                    </h1>
-                    <hr>
-                </div>
-            </div>
-            <div class="row modular-subfont">
-        
-        
-                <div class=" col-12 col-md-6 pt-2 mt-4 mb-4">
-                  <h4 class="modular-subfont text-white text-center lead my-4 linea-modular p-2">Medios de contacto </h4>  
-                  <ul class="modular-subfont">
-                    <li class="pt-2">
-                        <a href="https://www.instagram.com/modularneuquen/" target="_blank"> 
- 
-                            <img  src="./assets/instagram-modular.svg" alt="instagram">
-                            Instagram
-                        </a>
-                    </li>
-                    <li class="pt-2" >
-                        <a href="https://www.facebook.com/Modular-126707452171065/" target="_blank">
- 
-                            <img src="./assets/facebook-modular.svg" alt="Facebook">
-                            Facebook
-                        </a>
-                    </li>
-                    <li class="py-2">
-                        <a href="https://api.whatsapp.com/send?phone=5492994616328&text=Hola%20Modular!">
- 
-                            <img  src="./assets/whatsapp-modular.svg" alt="Whatsapp">
-                            Whatsapp
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h5 class="text-left">
-                            <img  class="pr-2" src="./assets/llamada.svg" alt="telefono">
-                            299 4 616328
-                        </h5>
-
-                    </li>
-                    <li>
-                        <h5 class="text-left">
-                            <img  class="pr-2" src="./assets/correo.svg" alt="mail">
-                            contacto@modularneuquen.com
-                        </h5>
-
-                    </li>
-                </ul>
-                </div>
-        
-        
-        
-                <div class="col-12 col-md-6 pt-2 mt-4 mb-4">
-                    <h4 class="modular-subfont modular-color text-center lead my-4">Envíanos tu consulta</h4>
-                    <form action="/send-email" method="POST">
-                        <div class="form-row">
-                            <div class="form-group col-12 col-md-6">
-                                <input type="text" class="form-control formulario" name="name" placeholder="Nombre">
-                            </div>
-                            <div class="form-group col-12 col-md-6">
-                                <input type="text" class="form-control" name="apellido" placeholder="Apellido">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-12 col-md-12">
-                                <input type="text" class="form-control" name="email" placeholder="Email">
-                            </div>
-        
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-12 col-md-12">
-                                <input type="tel" class="form-control" name="tel" placeholder="Teléfono">
-                            </div>
-        
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group form-group-lg col-12">
-        
-                                <textarea class="form-control" id="exampleFormControlTextarea1"
-                                    placeholder="Escríbenos tu consulta" name="message" rows="3"></textarea>
-                            </div>
-        
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col">
-                                <button type="submit" class="btn btn-block btn-modular">Enviar</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-
-<!-- Footer -->
-<section id="footer">
-    
-    <div class="container-fluid">
-        <div class="row text-center">
-            <div class="col-12 col-md-6 text-white mt-4">
-                <h3 class="modular-font">seguinos en</h3>
-               <ul class="modular-subfont">
-                   <li class="pt-2">
-                       <a href="https://www.instagram.com/modularneuquen/" target="_blank"> 
-
-                           <img  src="./assets/instagram.svg" alt="instagram">
-                           Instagram
-                       </a>
-                   </li>
-                   <li class="pt-2" >
-                       <a href="https://www.facebook.com/Modular-126707452171065/" target="_blank">
-
-                           <img src="./assets/facebook.svg" alt="Facebook">
-                           Facebook
-                       </a>
-                   </li>
-                   <li class="py-2">
-                       <a href="https://api.whatsapp.com/send?phone=5492994616328&text=Hola%20Modular!">
-
-                           <img  src="./assets/whatsapp.svg" alt="Whatsapp">
-                           Whatsapp
-                       </a>
-                   </li>
-               </ul>
-            </div>
-            <div class="col-12 col-md-6 py-3 d-flex justify-content-center align-items-center">
-                <img class="logo-footer" src="./assets/perfil-02.png" alt="">
-            </div>
-        </div>
-        <div class="row text-white text-center">
-            <div class="col-12 col-md-6 borde-footer d-flex align-items-center justify-content-center py-4">
-                Modular espacios © 2020 / Todos los derechos reservados.
-            </div>
-            <div class="col-12 col-md-6 borde-footer d-flex align-items-center justify-content-center py-3">
-                Web desing por &nbsp;<a class="text-white" href="https://github.com/panchixnrc"> Francisco Sepulveda</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
-
-
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
